@@ -14,8 +14,8 @@ body {
 }
 
 .container {
-    width: 100%;
-    height: 100%;
+    width: 1888px;
+    height: 977px;
     background: rgb(255, 255, 255);
 }
 
@@ -92,6 +92,7 @@ body {
     font-weight: 600;
     line-height: 126.9%; /* 30.456px */
     margin-top: 7px;
+    
 }
 
 button {
@@ -169,4 +170,13 @@ button {
     font-style: normal;
     font-weight: 600;
     line-height: 126.9%; /* 32.994px */
+}
+.container1{
+    height: 400px;
+    width: 100%;
+   
+	padding: 15px; /* Відстань від картинки до рамки */
+	background: #666; /* Колір фона */
+	margin-right: 10px; /* Відступ зправа */
+	margin-bottom: 10px; /* Відступ знизу */
 }
