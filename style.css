@@ -174,9 +174,8 @@ button {
 .container1{
     height: 400px;
     width: 100%;
-   
-	padding: 15px; /* Відстань від картинки до рамки */
-	background: #666; /* Колір фона */
-	margin-right: 10px; /* Відступ зправа */
-	margin-bottom: 10px; /* Відступ знизу */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
