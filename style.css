@@ -85,12 +85,14 @@ body {
 
 .login {
     width: 60px;
-    color: #000000;
+    height: 100px;
+    background: #000;
+    color: #000;
     font-family: "Nunito Sans";
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
-    line-height: 126.9%; /* 30.456px */
+    line-height: 126.9%; 
     margin-top: 7px;
     
 }
@@ -173,6 +175,14 @@ button {
 }
 .container1{
     height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.container2{
+    height: 900px;
     width: 100%;
     display: flex;
     justify-content: center;
